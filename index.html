@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<!--
+<style>
+    /* Section-1 */
+    .freeshipping{
+        text-align: center;
+        background-color: green;
+        padding: 5px;
+        font-size: 10px;
+        color: #ffff;
+    }
+    .topbar {
+      padding: 5px;
+      display: flex;
+      justify-content: space-between; 
+    }
+
+    /* Section-2 */
+
+    .productpage {
+      display: flex;
+    }
+
+    .productimages {
+      flex: 0 0 22.5%; /* The % width */
+      text-align: center;     
+    }
+
+    .productbuy {
+      flex: 1; /* Takes the remaining space */
+    }
+    .sideimgs{
+        margin: 5px;
+    }
+
+    .quantity-add-to-cart-container {
+      display: flex;
+      align-items: center;
+      margin-left: 15%;
+    }
+
+    .quantity-button,
+    .add-to-cart-button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .quantity-button {
+      background-color: #4CAF50;
+    }
+
+    .add-to-cart-button {
+      display: inline-block;
+      padding: 5px;
+      background-color: #FF0000; /* Red color */
+      margin-left: 12px; /* Adjust margin as needed */
+    }
+
+    .quantity-button span,
+    .add-to-cart-button span {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    /* Section 3 */
+    
+    .topreview{
+      background-color:rgb(189, 181, 159);
+      text-align: center;
+      margin: 0px;
+    }
+    .writereview {
+      background-color: #113f13;
+      color: #fff;
+      padding: 10px;
+
+    }
+    .givereview{
+      display: inline-block;
+      margin-left:5vw;
+      border: #fff solid 1px;
+      padding: 4px;
+      border-radius: 5%;
+    }
+
+
+    /* Section 4 */
+    .endpart {
+      height: 200px;
+      text-align: center;
+      background-color: #c9d8ca;
+    }
+
+    .endpartpics{
+      display: flex;
+      justify-content: space-around;
+     
+    }
+
+    /* Section 5 */
+
+    .signupsection{
+      background-color: #113f13;
+      width: 100%;
+      display: flex;
+    }
+    .links{
+      
+      width: 47%;
+      padding: 5px;
+      padding-left: 10%;
+      font-size: 1em;
+      padding-bottom: 40px; /* To add padding at bottom to increase height of signupsection*/
+      padding-top: 19px;
+    }
+    .signup{
+      width: 53%;
+      padding: 7px;
+      padding-bottom: 40px; /* To add padding at bottom to increase height of signupsection*/
+    }
+
+    .links p{
+      font-size: .8rem;
+    }
+    .links p span{
+      display: inline-block;
+      padding: 1%;
+    }
+    .signupmail{
+    width:55%;
+    min-width: 40px;
+    display:inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    border: solid 1px black;
+    }
+    .signupbutton{
+      width:30%;
+      min-width: 45px;
+      display:inline-block;
+      font-size:10px;
+
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #FF0000;
+      color: #c9d8ca;
+      border: solid 1px white;
+    }
+
+
+     /* Section 6 */
+
+     .footersec1 {
+    text-align: center;
+    margin: 0;
+    padding: 9px 0; /* 10px top and bottom, 0 left and right */
+    background-color: #e9d992;
+    }
+    .footersec2{
+      text-align: center;
+    }
+    .footersec2 p{
+      display: inline-block;
+      font-size: 3vw;
+      padding: 7px;
+    }
+
+
+    
+
+
+</style>
+-->
+
+<body>
+    <!-- Section-1 -->
+
+    <div class="freeshipping"> Free Shipping for orders abouve $100 </div>
+    <div class="topbar">
+        <img src="./assest/Bar.JPG" alt="bar" height="20px" width="40px">
+        <img src="./assest/C Logo.JPG" alt="Logo" height="70px" width="70px">
+        <img src="./assest/Capture.JPG" alt="cart" height="30px" width="30px" >
+    </div>
+
+    <!-- Section-2 -->   
+
+    <div class="productpage">
+
+        <div class="productimages">
+            <img class="sideimgs" src="./assest/Balm.JPG" alt="bar" height="70px" width="70px">
+            <img class="sideimgs" src="./assest/child.JPG" alt="bar" height="70px" width="70px">
+            <img class="sideimgs" src="./assest/balm 2.JPG" alt="bar" height="70px" width="70px">
+            <img class="sideimgs" src="./assest/baln3.JPG" alt="bar" height="70px" width="70px">
+        </div>
+
+        <div class="productbuy">
+            <p style="margin-left:15%; margin-bottom: 0;">Hand & Body Skin Moisturizer</p>
+            <p style="margin-left:15%; margin-top: 0; font-size: 9px; font-weight: 200;" >8 once tin</p>
+            
+            <img style="margin-left: 13%;" src="./assest/stars.JPG" alt="bar" height="20px" width="90px">
+            <h2  style="margin-left: 15%;" >$10.49</h2>
+
+            <div class="quantity-add-to-cart-container">
+              <button class="quantity-button">
+                <span style="margin-left: 2px; margin-right:2px;" >-</span>
+                <span style="margin-left: 5px; margin-right:5px;" >Quantity</span>
+                <span style="margin-left: 2px; margin-right:2px;" >+</span>
+              </button>
+
+              <button class="add-to-cart-button">
+                <span style="margin: 7px;">Add to Cart</span>
+              </button>
+            </div>
+            <p style=" font-size: 11px; padding: 10px; padding-left: 30px;" >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets</p>
+            <h4 style=" padding-left: 30px; margin: 5px;">Why it Works ?</h4>
+            <ul style=" padding-left: 30px;">
+              <li style=" margin-left: 30px;">Number</li>
+              <li style=" margin-left: 30px;" >Number</li>
+              <li style=" margin-left: 30px;" >Number</li>
+            </ul>
+            <h4 style=" padding-left: 30px; margin: 5px;">Ingredients</h4>
+            <ul style=" padding-left: 30px;">
+              <li style=" margin-left: 30px; font-size:13px;">Number</li>
+              <li style=" margin-left: 30px; font-size:13px;" >Number</li>
+              <li style=" margin-left: 30px; font-size:13px;" >Number</li>
+            </ul>
+          </div>
+
+    </div>
+
+    <!-- Section-3 -->
+
+    <div class="topreview">
+      <p style="padding: 20px;"> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a</p>
+    </div>
+    <div class="writereview">
+      <span style="font-size: 11px;" >What our customers are thinking</span>
+      <div class="givereview">Write a Review</div>
+    </div>
+    
+      <img src="./assest/rev page.JPG" alt="" height="150px" width="99%">
+    
+     <!-- Section-4 -->
+
+     <div class="endpart">
+      <h3 style="padding-top: 12px;" >You May also like</h3>
+
+      <div class="endpartpics">
+        <div style="height: 80px; width: 25%;" >
+          <img src="./assest/balm 4.JPG" alt="" height="80px" width="100%">
+          <p style="padding: 1px; margin: 1px;" >Product 1</p>
+          <p style="padding: 1px; margin: 1px;" >$25</p>
+        </div>
+        <div style="height: 80px; width: 25%;" >
+          <img src="./assest/balm 4.JPG" alt="" height="80px" width="100%">
+          <p style="padding: 1px; margin: 1px;" >Product 2</p>
+          <p style="padding: 1px; margin: 1px;" >$45</p>
+        </div>
+        <div style="height: 80px; width: 25%;" >
+          <img src="./assest/balm 4.JPG" alt="" height="80px" width="100%">
+          <p style="padding: 1px; margin: 1px;" >Product 3</p>
+          <p style="padding: 1px; margin: 1px;" >$35</p>
+        </div>  
+
+      </div>      
+     </div>
+
+      <!-- Section-5 -->
+
+    <div class="signupsection">
+
+      <div class="links">
+        <p><span><a style="text-decoration: none; color: black;" href="#"> links # 1  </a></span> <span><a style="text-decoration: none; color: black;" href="#"> link # 2 </a></span></p>
+        <p><span><a style="text-decoration: none; color: black;" href="#"> links # 1  </a></span> <span><a style="text-decoration: none; color: black;" href="#"> link # 2 </a></span></p>
+        <p><span><a style="text-decoration: none; color: black;" href="#"> links # 1  </a></span> <span><a style="text-decoration: none; color: black;" href="#"> link # 2 </a></span></p>
+        <p><span><a style="text-decoration: none; color: black;" href="#"> links # 1  </a></span> <span><a style="text-decoration: none; color: black;" href="#"> link # 2 </a></span></p>
+        
+      </div>
+
+      <div class="signup">
+
+        <h4 style="color: #fff;">Signup for Saving</h4>
+
+        <form action="/submit" method="post">
+          <label for="email"></label>
+          <input class="signupmail" type="email" id="email" name="email" required placeholder="email">
+          <input class="signupbutton"  type="submit" value="submit">
+      </form>
+
+      <p style="color: #fff;font-size: 8px;">
+        l 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets</p>
+      </div>
+
+
+    </div>
+
+      <!-- Section-6 -->
+
+    <footer>
+      <div class="footersec1">
+        <p style="font-size:4vw;">Skin Care that works wonder since 1990</p>
+      </div>
+      <div class="footersec2">
+        <p>Sitemap</p>
+        <p>Privacy Polocy</p>
+        <p>Terms of use</p>
+        <br>
+
+        <p>all rights reserved @ xyz</p>
+      </div>
+    </footer>
+
+
+<footer></footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,175 @@
+
+    /* Section-1 */
+    .freeshipping{
+        text-align: center;
+        background-color: green;
+        padding: 5px;
+        font-size: 10px;
+        color: #ffff;
+    }
+    .topbar {
+      padding: 5px;
+      display: flex;
+      justify-content: space-between; 
+    }
+
+    /* Section-2 */
+
+    .productpage {
+      display: flex;
+    }
+
+    .productimages {
+      flex: 0 0 22.5%; /* The % width */
+      text-align: center;     
+    }
+
+    .productbuy {
+      flex: 1; /* Takes the remaining space */
+    }
+    .sideimgs{
+        margin: 5px;
+    }
+
+    .quantity-add-to-cart-container {
+      display: flex;
+      align-items: center;
+      margin-left: 15%;
+    }
+
+    .quantity-button,
+    .add-to-cart-button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .quantity-button {
+      background-color: #4CAF50;
+    }
+
+    .add-to-cart-button {
+      display: inline-block;
+      padding: 5px;
+      background-color: #FF0000; /* Red color */
+      margin-left: 12px; /* Adjust margin as needed */
+    }
+
+    .quantity-button span,
+    .add-to-cart-button span {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    /* Section 3 */
+    
+    .topreview{
+      background-color:rgb(189, 181, 159);
+      text-align: center;
+      margin: 0px;
+    }
+    .writereview {
+      background-color: #113f13;
+      color: #fff;
+      padding: 10px;
+
+    }
+    .givereview{
+      display: inline-block;
+      margin-left:5vw;
+      border: #fff solid 1px;
+      padding: 4px;
+      border-radius: 5%;
+    }
+
+
+    /* Section 4 */
+    .endpart {
+      height: 200px;
+      text-align: center;
+      background-color: #c9d8ca;
+    }
+
+    .endpartpics{
+      display: flex;
+      justify-content: space-around;
+     
+    }
+
+    /* Section 5 */
+
+    .signupsection{
+      background-color: #113f13;
+      width: 100%;
+      display: flex;
+    }
+    .links{
+      
+      width: 47%;
+      padding: 5px;
+      padding-left: 10%;
+      font-size: 1em;
+      padding-bottom: 40px; /* To add padding at bottom to increase height of signupsection*/
+      padding-top: 19px;
+    }
+    .signup{
+      width: 53%;
+      padding: 7px;
+      padding-bottom: 40px; /* To add padding at bottom to increase height of signupsection*/
+    }
+
+    .links p{
+      font-size: .8rem;
+    }
+    .links p span{
+      display: inline-block;
+      padding: 1%;
+    }
+    .signupmail{
+    width:55%;
+    min-width: 40px;
+    display:inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    border: solid 1px black;
+    }
+    .signupbutton{
+      width:30%;
+      min-width: 45px;
+      display:inline-block;
+      font-size:10px;
+
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #FF0000;
+      color: #c9d8ca;
+      border: solid 1px white;
+    }
+
+
+     /* Section 6 */
+
+     .footersec1 {
+    text-align: center;
+    margin: 0;
+    padding: 9px 0; /* 10px top and bottom, 0 left and right */
+    background-color: #e9d992;
+    }
+    .footersec2{
+      text-align: center;
+    }
+    .footersec2 p{
+      display: inline-block;
+      font-size: 3vw;
+      padding: 7px;
+    }
+
+
+    
+
+
+
